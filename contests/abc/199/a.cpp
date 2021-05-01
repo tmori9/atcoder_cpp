@@ -1,10 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main()
-{
-    int a;
+int main() {
+  int a, b, c;
+  cin >> a >> b >> c;
 
-    cin >> a;
-    cout << a * 10 << endl;
+  if (a * a + b * b < c * c) {
+    cout << "Yes" << endl;
+  } else {
+    cout << "No" << endl;
+  }
 }
