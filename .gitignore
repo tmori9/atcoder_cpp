@@ -1,4 +1,5 @@
-.vscode
 input.txt
 problem.exe
 test
+*.in
+*.out
